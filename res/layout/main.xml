@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+
+    <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/voiceSelector"
+            android:layout_gravity="center_horizontal"
+            android:drawSelectorOnTop="true"
+            android:spinnerStyle="@android:style/Widget.Spinner.DropDown"
+            android:entries="@array/voiceType"/>
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/playCoffeeIsDone"
+            android:id="@+id/gongButton"
+            android:onClick="startMediaPlayback"/>
+</LinearLayout>
+

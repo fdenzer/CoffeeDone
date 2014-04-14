@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Coffee is done</string>
+    <string name="playCoffeeIsDone">Start your coffee timer</string>
+    <string-array name="voiceType">
+        <item>male</item>
+        <item>gong</item>
+    </string-array>
+</resources>
